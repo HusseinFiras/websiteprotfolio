@@ -7,7 +7,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const PortfolioCard = ({ icon: Icon, title, description, index }) => (
   <motion.div
-    variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+    variants={fadeIn("right", "spring", index * 0.2, 0.5)}
     className="w-full sm:w-1/2 md:w-1/3 lg:w-1/5 p-4 flex flex-col items-center"
   >
     <div className="w-16 h-16 flex items-center justify-center mb-4">
@@ -186,7 +186,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className='container mx-auto mt-[-250px] xs:mt-[-200px] sm:mt-0'> {/* Added negative margin for mobile */}
+    <div className='container mx-auto mt-[-150px] xs:mt-[-200px] sm:mt-0'> {/* Added negative margin for mobile */}
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionText}`}></h2>
       </motion.div>

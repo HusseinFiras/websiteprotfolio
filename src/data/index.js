@@ -23,9 +23,9 @@ const experiences = [
     company_name: "InfasMe",
     date: "2024 - Present",
     details: [
-      "",
-      "",
-      "",
+      "Providing technical consultation on Microsoft 365, Azure, and IT solutions, ensuring secure and optimized cloud adoption.",
+      "Advising businesses on IT infrastructure, network security, and compliance best practices.",
+      "Conducting product demos, training, and pre-sales support to align solutions with business needs.",
     ],
   },
   {
