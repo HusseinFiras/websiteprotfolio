@@ -465,7 +465,7 @@
   .parallax__content {
     position: absolute;
     top: 15%;
-    left: 5%;
+    left: 0%;
     padding-left: 1rem;
     width: 100%;
   }

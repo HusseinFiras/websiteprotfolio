@@ -6,16 +6,16 @@ const Hero = ({ scrollContainer }) => {
     <section className="parallax">
       {/* Text Content */}
       <div className='parallax__content w-full mx-auto'>
-        <div className="flex flex-col">
-          <h1 className='font-medium text-white whitespace-nowrap
-            text-[70px] xs:text-[50px] sm:text-[60px] md:text-[80px] lg:text-[100px] xl:text-[140px]
-            leading-tight tracking-tight z-20'>
-            <span className="block mb-2">HUSSEIN</span>
-            <span className="block">FIRAS</span>
-          </h1>
-          <Position />
-        </div>
-      </div>
+  <div className="flex flex-col items-center sm:items-start"> {/* Added items-center and sm:items-start */}
+    <h1 className='font-medium text-white whitespace-nowrap text-center sm:text-left
+      text-[70px] xs:text-[50px] sm:text-[60px] md:text-[80px] lg:text-[100px] xl:text-[140px]
+      leading-tight tracking-tight z-20'>
+      <span className="block mb-2">HUSSEIN</span>
+      <span className="block">FIRAS</span>
+    </h1>
+    <Position />
+  </div>
+</div>
 
       {/* Background Images */}
       <img className="parallax__stars" src="./parallax/1Stars.svg" alt="" />

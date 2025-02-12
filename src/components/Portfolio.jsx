@@ -76,7 +76,7 @@ const GithubSection = () => {
               👔Tech Sales
               </span>
               <span className="bg-gray-800 px-2 py-1 rounded text-sm text-white flex items-center gap-1">
-                🛡️Security Fanatic
+              🤖Automation Enthusiast
               </span>
             </div>
 
@@ -126,7 +126,7 @@ const GithubSection = () => {
         variants={fadeIn("left", "spring", 0.5, 0.75)}
         className="lg:w-3/4 w-full"
       >
-        <h1 className="text-3xl font-bold mb-6" style={{ color: '#4bc5c0' }}>WHOAMI?</h1>
+        <h1 className="text-3xl font-bold mb-6" style={{ color: '#4bc5c0' }}>WHO AM I?</h1>
         
         <div className="space-y-6 text-gray-300">
           <p>
