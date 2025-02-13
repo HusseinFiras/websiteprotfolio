@@ -82,7 +82,7 @@ const Contact = () => {
               border border-[#1af0dc]/20 shadow-[0_0_30px_rgba(26,240,220,0.1)]"
           >
             <form
-              action="https://getform.io/f/bkkkowmb"
+              action="https://formspree.io/f/mgvolrwk"
               method="POST"
               className="space-y-8"
             >
