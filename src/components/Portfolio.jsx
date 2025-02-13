@@ -104,7 +104,7 @@ const GithubSection = () => {
                  style={{ color: '#1af0dc' }} className="hover:opacity-80">
                 <Github className="w-6 h-6" />
               </a>
-              <a href="mailto:hussenfiras342@gmail.com" 
+              <a href="mailto:hussein.contactme@gmail.com" 
                  style={{ color: '#1af0dc' }} className="hover:opacity-80">
                 <Mail className="w-6 h-6" />
               </a>
